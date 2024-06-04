@@ -1,7 +1,7 @@
 import pkg from "mongoose";
 const { connect, connection, disconnect } = pkg;
 
-const uri = process.env.MONGO_DB_URL;
+const uri = process.env.MONGO_DB_URL; 
 
 // Parametros de configuração da conexão
 const clientOptions = {
